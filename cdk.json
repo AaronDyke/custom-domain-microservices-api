@@ -1,0 +1,3 @@
+{
+  "app": "npx ts-node bin/micro_services_example.ts"
+}
