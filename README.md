@@ -5,9 +5,9 @@ This repository shows an example of a micro service backed API that uses a custo
 
 ## Steps to make this work on your machine
 1. Cone this repository
-2. Install and setup the AWS CDK. [Instructions](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html)
+2. Install and setup the AWS CDK ([Instructions](https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html))
 3. Run `npm install` in the cloned repo
-4. Create your custom domain [Video reference](https://www.youtube.com/watch?v=gd-Qa-HQHMs)
+4. Create your custom domain ([Video reference](https://www.youtube.com/watch?v=gd-Qa-HQHMs))
 5. Fill in the variables in the `/bin/micro_services_example.ts` file
 6. Run `npm run build`
 7. Run `cdk deploy '*'` to deploy both services attached to your custom domain
@@ -15,7 +15,7 @@ This repository shows an example of a micro service backed API that uses a custo
 ## What does this create?
 After `cdk deploy '*'` is run there are two CloudFormation templates deployed on your AWS account. Each template deploys:
 * 1 API Gateway
-* 2 lambda functions (as integrations of API methods)
+* 2 Lambda functions (as integrations of API methods)
 * 1 Base path mapping to your API Gateway Custom domain
 
 Don't forget to clean up once you are done exploring the deployed resources by using the `cdk destroy '*'` command
