@@ -30,7 +30,7 @@ Do you wanna learn from me or from AWS themselves? Pallavi, an AWS Cloud Support
 
 ## How do I link that domain to my API's?
 Here is where this repository comes into play. Once you have followed Pallavi's steps and   created a custom domain you should be able to find the three variables associated with your API's custom domain:
-1. Your domain name (ex. API.example.com)
+1. Your domain name (ex. api.example.com)
 2. Your domain name's hosted zone id
 3. Your domain name's alias target
 
