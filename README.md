@@ -16,7 +16,9 @@ This repository shows an example of a micro service backed API that uses a custo
 After `cdk deploy '*'` is run there are two CloudFormation templates deployed on your AWS account. Each template deploys:
 * 1 API Gateway
 * 2 lambda functions (as integrations of API methods)
-* 1 Base path mapping to your API Gateway Custom domain 
+* 1 Base path mapping to your API Gateway Custom domain
+
+Don't forget to clean up once you are done exploring the deployed resources by using the `cdk destroy '*'` command
 
 # Questions you may be asking yourself
 ## What is the AWS CDK?
