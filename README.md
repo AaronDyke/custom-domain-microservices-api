@@ -47,3 +47,4 @@ These three variables are used in /bin/micro_services_example.ts to pass informa
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
  * `cdk destroy '*'` removes all the stacks created by this repository
+Test commit
